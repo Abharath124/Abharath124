@@ -1,3 +1,4 @@
+```html
 <div align="center">
 
 <img src="./assets/liquid-glass-banner.svg" width="100%" alt="Liquid Glass Banner">
@@ -7,12 +8,15 @@
 <a href="https://www.linkedin.com/in/anumandla-bharath-srinivas-694b51199/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
+
 <a href="https://instagram.com/_b_h_a_r_a_t_h_09">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
 </a>
+
 <a href="mailto:bharath124anumandla@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
+
 <a href="https://leetcode.com/u/Anumandla-Bharath-Srinivas/">
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
 </a>
@@ -58,7 +62,6 @@ Currently focused on growing as an **AI Full-Stack Engineer** while expanding my
 <img src="https://img.shields.io/badge/🚀%20Production%20AI%20Systems-BE123C?style=for-the-badge&labelColor=111827">
 
 </div>
-
 
 # 🛠️ Tech Stack
 
@@ -146,34 +149,16 @@ Currently focused on growing as an **AI Full-Stack Engineer** while expanding my
 
 ---
 
-
-
 # 📊 GitHub Analytics
 
 <div align="center">
 
-<a href="https://github.com/Abharath124">
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Abharath124&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats">
-</a>
-
-<a href="https://github.com/Abharath124">
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abharath124&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
-</a>
-
-<br><br>
-
-<!-- GitHub Contribution Activity -->
-<div align="center">
-
-### 📈 Contribution Activity
-
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true"
-  width="96%"
-  alt="GitHub Contribution Activity"
+src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true"
+width="96%"
+alt="GitHub Contribution Activity"
 />
 
-</div>
 </div>
 
 ---
@@ -243,3 +228,4 @@ Currently focused on growing as an **AI Full-Stack Engineer** while expanding my
 <i>Building intelligent products. Learning continuously. Shipping consistently. 🚀</i>
 
 </div>
+```

@@ -1,35 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B14"/><stop offset=".5" stop-color="#10172A"/><stop offset="1" stop-color="#050816"/></linearGradient>
-<linearGradient id="g1"><stop stop-color="#7C3AED" stop-opacity=".8"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".15"/></linearGradient>
-<linearGradient id="g2"><stop stop-color="#2563EB" stop-opacity=".7"/><stop offset="1" stop-color="#EC4899" stop-opacity=".15"/></linearGradient>
-<linearGradient id="glass"><stop stop-color="#fff" stop-opacity=".15"/><stop offset=".55" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".02"/></linearGradient>
-<linearGradient id="stroke"><stop stop-color="#fff" stop-opacity=".45"/><stop offset=".5" stop-color="#A5B4FC" stop-opacity=".18"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".35"/></linearGradient>
-<filter id="b"><feGaussianBlur stdDeviation="60"/></filter>
-<filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-opacity=".45"/></filter>
-<style>
-.t{font:700 42px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.sub{font:600 22px Inter,Segoe UI,Arial,sans-serif;fill:#C4B5FD}.body{font:500 17px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}.pill{font:700 13px Inter,Segoe UI,Arial,sans-serif;fill:#E2E8F0;letter-spacing:1px}.small{font:600 12px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.5px}
-</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#04060F"/>
+    <stop offset=".45" stop-color="#0D1225"/>
+    <stop offset="1" stop-color="#060912"/>
+  </linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#7C3AED" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity=".2"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#2563EB" stop-opacity=".8"/>
+    <stop offset="1" stop-color="#EC4899" stop-opacity=".2"/>
+  </linearGradient>
+  <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#EC4899" stop-opacity=".5"/>
+    <stop offset="1" stop-color="#7C3AED" stop-opacity=".1"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".18"/>
+    <stop offset=".4" stop-color="#ffffff" stop-opacity=".07"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".02"/>
+  </linearGradient>
+  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".55"/>
+    <stop offset=".4" stop-color="#A5B4FC" stop-opacity=".25"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity=".45"/>
+  </linearGradient>
+  <linearGradient id="pillgrad" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#7C3AED" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity=".15"/>
+  </linearGradient>
+  <filter id="blur1"><feGaussianBlur stdDeviation="70"/></filter>
+  <filter id="blur2"><feGaussianBlur stdDeviation="45"/></filter>
+  <filter id="blur3"><feGaussianBlur stdDeviation="30"/></filter>
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#7C3AED" flood-opacity=".3"/>
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  <style>
+    .t{font:800 44px 'Inter','Segoe UI',Arial,sans-serif;fill:#F8FAFC;letter-spacing:-1px}
+    .sub{font:600 21px 'Inter','Segoe UI',Arial,sans-serif;fill:#C4B5FD;letter-spacing:.2px}
+    .body{font:500 16px 'Inter','Segoe UI',Arial,sans-serif;fill:#94A3B8}
+    .pill{font:700 12px 'Inter','Segoe UI',Arial,sans-serif;fill:#E2E8F0;letter-spacing:1.2px}
+    .label{font:600 11px 'Inter','Segoe UI',Arial,sans-serif;fill:#64748B;letter-spacing:2px}
+    .dot-label{font:600 13px 'Inter','Segoe UI',Arial,sans-serif;fill:#94A3B8}
+  </style>
 </defs>
-<rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-<circle cx="180" cy="75" r="170" fill="url(#g1)" filter="url(#b)"/>
-<circle cx="1050" cy="330" r="190" fill="url(#g2)" filter="url(#b)"/>
-<circle cx="780" cy="85" r="95" fill="#22D3EE" opacity=".14"/>
-<g filter="url(#s)">
-<rect x="42" y="34" width="1116" height="352" rx="30" fill="url(#glass)" stroke="url(#stroke)" stroke-width="1.3"/>
-<rect x="58" y="50" width="1084" height="320" rx="24" fill="none" stroke="#fff" stroke-opacity=".06"/>
+
+<!-- Background -->
+<rect width="1200" height="440" rx="0" fill="url(#bg)"/>
+
+<!-- Ambient blobs -->
+<circle cx="160" cy="80" r="200" fill="url(#g1)" filter="url(#blur1)" opacity=".9"/>
+<circle cx="1080" cy="360" r="220" fill="url(#g2)" filter="url(#blur1)" opacity=".85"/>
+<circle cx="700" cy="60" r="120" fill="#22D3EE" opacity=".12" filter="url(#blur2)"/>
+<circle cx="950" cy="180" r="80" fill="#EC4899" opacity=".1" filter="url(#blur3)"/>
+<circle cx="400" cy="380" r="90" fill="#7C3AED" opacity=".1" filter="url(#blur3)"/>
+
+<!-- Main glass card -->
+<g filter="url(#shadow)">
+  <rect x="36" y="28" width="1128" height="384" rx="32" fill="url(#glass)" stroke="url(#stroke)" stroke-width="1.4"/>
+  <!-- Inner highlight line -->
+  <rect x="52" y="44" width="1096" height="352" rx="26" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+  <!-- Top shine -->
+  <rect x="36" y="28" width="1128" height="60" rx="32" fill="#ffffff" fill-opacity=".04"/>
 </g>
-<circle cx="92" cy="82" r="16" fill="#22D3EE" opacity=".85"/><circle cx="92" cy="82" r="6" fill="#F8FAFC"/>
-<text x="120" y="88" class="small">ANUMANDLA BHARATH SRINIVAS • AI / ML • GENAI</text>
-<text x="86" y="165" class="t">Building intelligent products</text>
-<text x="86" y="212" class="t">with AI + Full-Stack Engineering.</text>
-<text x="86" y="252" class="sub">Generative AI • AI Agents • RAG • ML • FastAPI • React • AWS</text>
-<text x="86" y="294" class="body">MCA in Generative AI · AI engineering · full-stack systems · cloud deployment</text>
+
+<!-- Decorative grid lines -->
+<line x1="36" y1="200" x2="1164" y2="200" stroke="#ffffff" stroke-opacity=".03" stroke-width="1"/>
+<line x1="600" y1="28" x2="600" y2="412" stroke="#ffffff" stroke-opacity=".03" stroke-width="1"/>
+
+<!-- Status dot + label -->
+<circle cx="80" cy="82" r="6" fill="#22D3EE" filter="url(#glow)"/>
+<circle cx="80" cy="82" r="3" fill="#F8FAFC"/>
+<text x="98" y="87" class="label">ANUMANDLA BHARATH SRINIVAS  ·  AI / ML  ·  GENERATIVE AI</text>
+
+<!-- Decorative top-right corner orb -->
+<circle cx="1110" cy="70" r="40" fill="#7C3AED" fill-opacity=".12" stroke="#A5B4FC" stroke-opacity=".15" stroke-width="1"/>
+<circle cx="1110" cy="70" r="22" fill="#7C3AED" fill-opacity=".18"/>
+<text x="1110" y="76" text-anchor="middle" style="font:700 14px Inter,sans-serif;fill:#C4B5FD;">AI</text>
+
+<!-- Main headline -->
+<text x="80" y="168" class="t">Building intelligent products</text>
+<text x="80" y="218" class="t" style="fill:#C4B5FD;">with AI + Full-Stack.</text>
+
+<!-- Subtitle -->
+<text x="80" y="262" class="sub">Generative AI  ·  AI Agents  ·  RAG  ·  ML  ·  FastAPI  ·  React  ·  AWS</text>
+
+<!-- Body text -->
+<text x="80" y="298" class="body">MCA in Generative AI  ·  AI engineering  ·  full-stack systems  ·  cloud deployment</text>
+
+<!-- Divider line -->
+<line x1="80" y1="318" x2="700" y2="318" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+
+<!-- Pills row -->
 <g>
-<rect x="86" y="326" width="145" height="31" rx="16" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="108" y="347" class="pill">GENAI</text>
-<rect x="244" y="326" width="125" height="31" rx="16" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="266" y="347" class="pill">AI AGENTS</text>
-<rect x="382" y="326" width="95" height="31" rx="16" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="404" y="347" class="pill">RAG</text>
-<rect x="490" y="326" width="116" height="31" rx="16" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="512" y="347" class="pill">FULL STACK</text>
-<rect x="619" y="326" width="84" height="31" rx="16" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="641" y="347" class="pill">AWS</text>
+  <!-- GENAI -->
+  <rect x="80" y="332" width="110" height="30" rx="15" fill="url(#pillgrad)" stroke="#7C3AED" stroke-opacity=".5" stroke-width="1"/>
+  <text x="135" y="352" text-anchor="middle" class="pill">GENAI</text>
+
+  <!-- AI AGENTS -->
+  <rect x="202" y="332" width="120" height="30" rx="15" fill="#2563EB" fill-opacity=".15" stroke="#60A5FA" stroke-opacity=".4" stroke-width="1"/>
+  <text x="262" y="352" text-anchor="middle" class="pill">AI AGENTS</text>
+
+  <!-- RAG -->
+  <rect x="334" y="332" width="80" height="30" rx="15" fill="#EC4899" fill-opacity=".12" stroke="#F472B6" stroke-opacity=".4" stroke-width="1"/>
+  <text x="374" y="352" text-anchor="middle" class="pill">RAG</text>
+
+  <!-- FULL STACK -->
+  <rect x="426" y="332" width="115" height="30" rx="15" fill="#0EA5E9" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".4" stroke-width="1"/>
+  <text x="483" y="352" text-anchor="middle" class="pill">FULL STACK</text>
+
+  <!-- AWS -->
+  <rect x="553" y="332" width="80" height="30" rx="15" fill="#F59E0B" fill-opacity=".12" stroke="#FCD34D" stroke-opacity=".4" stroke-width="1"/>
+  <text x="593" y="352" text-anchor="middle" class="pill">AWS</text>
+
+  <!-- LLMs -->
+  <rect x="645" y="332" width="80" height="30" rx="15" fill="#10B981" fill-opacity=".12" stroke="#34D399" stroke-opacity=".4" stroke-width="1"/>
+  <text x="685" y="352" text-anchor="middle" class="pill">LLMs</text>
+</g>
+
+<!-- Right side decorative element -->
+<g opacity=".6">
+  <circle cx="980" cy="240" r="90" fill="none" stroke="#7C3AED" stroke-opacity=".2" stroke-width="1" stroke-dasharray="4 6"/>
+  <circle cx="980" cy="240" r="65" fill="none" stroke="#22D3EE" stroke-opacity=".15" stroke-width="1" stroke-dasharray="3 8"/>
+  <circle cx="980" cy="240" r="40" fill="#7C3AED" fill-opacity=".08" stroke="#A5B4FC" stroke-opacity=".2" stroke-width="1"/>
+  <text x="980" y="235" text-anchor="middle" style="font:800 18px Inter,sans-serif;fill:#C4B5FD;">BUILD</text>
+  <text x="980" y="255" text-anchor="middle" style="font:600 12px Inter,sans-serif;fill:#64748B;">SHIP · LEARN</text>
 </g>
 </svg>

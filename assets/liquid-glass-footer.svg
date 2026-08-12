@@ -1,14 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
 <defs>
-<linearGradient id="bg"><stop stop-color="#070B14"/><stop offset="1" stop-color="#111827"/></linearGradient>
-<linearGradient id="glow"><stop stop-color="#8B5CF6" stop-opacity=".6"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".45"/><stop offset="1" stop-color="#EC4899" stop-opacity=".6"/></linearGradient>
-<filter id="b"><feGaussianBlur stdDeviation="28"/></filter>
-<style>.t{font:700 24px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.s{font:500 14px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8}</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#04060F"/>
+    <stop offset="1" stop-color="#0D1225"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#8B5CF6" stop-opacity=".7"/>
+    <stop offset=".35" stop-color="#22D3EE" stop-opacity=".55"/>
+    <stop offset=".65" stop-color="#EC4899" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#8B5CF6" stop-opacity=".7"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".03"/>
+  </linearGradient>
+  <filter id="b1"><feGaussianBlur stdDeviation="35"/></filter>
+  <filter id="b2"><feGaussianBlur stdDeviation="20"/></filter>
+  <style>
+    .t{font:700 22px 'Inter','Segoe UI',Arial,sans-serif;fill:#F8FAFC;letter-spacing:.5px}
+    .s{font:500 13px 'Inter','Segoe UI',Arial,sans-serif;fill:#64748B;letter-spacing:2px}
+    .tag{font:700 11px 'Inter','Segoe UI',Arial,sans-serif;fill:#94A3B8;letter-spacing:1.5px}
+  </style>
 </defs>
-<rect width="1200" height="180" rx="28" fill="url(#bg)"/>
-<ellipse cx="200" cy="90" rx="160" ry="60" fill="#8B5CF6" opacity=".16" filter="url(#b)"/>
-<ellipse cx="1000" cy="90" rx="180" ry="70" fill="#22D3EE" opacity=".14" filter="url(#b)"/>
-<rect x="28" y="24" width="1144" height="132" rx="24" fill="#fff" fill-opacity=".06" stroke="url(#glow)" stroke-opacity=".35"/>
-<text x="600" y="76" text-anchor="middle" class="t">Build → Learn → Experiment → Ship</text>
-<text x="600" y="108" text-anchor="middle" class="s">AI • ML • Generative AI • Full-Stack • Cloud</text>
+
+<rect width="1200" height="200" fill="url(#bg)"/>
+
+<!-- Ambient blobs -->
+<ellipse cx="180" cy="100" rx="180" ry="80" fill="#8B5CF6" opacity=".18" filter="url(#b1)"/>
+<ellipse cx="1020" cy="100" rx="200" ry="80" fill="#22D3EE" opacity=".15" filter="url(#b1)"/>
+<ellipse cx="600" cy="180" rx="300" ry="60" fill="#EC4899" opacity=".07" filter="url(#b2)"/>
+
+<!-- Glass card -->
+<rect x="28" y="20" width="1144" height="160" rx="28" fill="url(#glass)" stroke="url(#glow)" stroke-opacity=".4" stroke-width="1.2"/>
+<rect x="44" y="36" width="1112" height="128" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".04" stroke-width="1"/>
+
+<!-- Top shine -->
+<rect x="28" y="20" width="1144" height="40" rx="28" fill="#ffffff" fill-opacity=".03"/>
+
+<!-- Glowing top border line -->
+<line x1="200" y1="20" x2="1000" y2="20" stroke="url(#glow)" stroke-opacity=".6" stroke-width="1.5"/>
+
+<!-- Main text -->
+<text x="600" y="88" text-anchor="middle" class="t">Build  ·  Learn  ·  Experiment  ·  Ship</text>
+
+<!-- Divider dots -->
+<circle cx="600" cy="108" r="2" fill="#7C3AED" opacity=".6"/>
+<circle cx="580" cy="108" r="1.5" fill="#22D3EE" opacity=".4"/>
+<circle cx="620" cy="108" r="1.5" fill="#EC4899" opacity=".4"/>
+
+<!-- Sub text -->
+<text x="600" y="132" text-anchor="middle" class="s">AI  ·  ML  ·  GENERATIVE AI  ·  FULL-STACK  ·  CLOUD</text>
+
+<!-- Left decorative -->
+<circle cx="80" cy="100" r="18" fill="#7C3AED" fill-opacity=".15" stroke="#A5B4FC" stroke-opacity=".2" stroke-width="1"/>
+<text x="80" y="105" text-anchor="middle" style="font:700 10px Inter,sans-serif;fill:#A5B4FC;">AI</text>
+
+<!-- Right decorative -->
+<circle cx="1120" cy="100" r="18" fill="#22D3EE" fill-opacity=".12" stroke="#67E8F9" stroke-opacity=".2" stroke-width="1"/>
+<text x="1120" y="105" text-anchor="middle" style="font:700 10px Inter,sans-serif;fill:#67E8F9;">ML</text>
 </svg>

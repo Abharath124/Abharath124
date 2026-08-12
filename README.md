@@ -186,20 +186,20 @@
 <div align="center">
 
 <a href="https://github.com/Abharath124">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Abharath124&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=04060F&title_color=C4B5FD&icon_color=7C3AED&text_color=94A3B8" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Abharath124&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
 </a>
 &nbsp;
 <a href="https://github.com/Abharath124">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abharath124&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=04060F&title_color=C4B5FD&text_color=94A3B8" alt="Top Languages"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abharath124&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abharath124&theme=tokyonight&hide_border=true&background=04060F&ring=7C3AED&fire=EC4899&currStreakLabel=C4B5FD" alt="GitHub Streak" width="49%"/>
+<img src="https://streak-stats.demolab.com?user=Abharath124&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="55%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true&bg_color=04060F&color=C4B5FD&line=7C3AED&point=22D3EE" width="98%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Contribution Graph"/>
 
 </div>
 

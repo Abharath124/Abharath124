@@ -202,17 +202,9 @@
         ⬇️
 🌐 AI Full-Stack Engineering  (React · FastAPI · Next.js)
         ⬇️
-☁️ Cloud & Scalable AI Systems  (AWS · Docker · MLOps)
+☁️ Cloud & Scalable AI Systems  (AWS)
 ```
 
-<br/>
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat-square)
-![AI Agents](https://img.shields.io/badge/AI_Agents-9333EA?style=flat-square)
-![LLM Engineering](https://img.shields.io/badge/LLM_Engineering-4F46E5?style=flat-square)
-![Cloud](https://img.shields.io/badge/Cloud-0EA5E9?style=flat-square)
 
 </div>
 

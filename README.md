@@ -162,8 +162,18 @@ Currently focused on growing as an **AI Full-Stack Engineer** while expanding my
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution Activity">
+<!-- GitHub Contribution Activity -->
+<div align="center">
 
+### 📈 Contribution Activity
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true"
+  width="96%"
+  alt="GitHub Contribution Activity"
+/>
+
+</div>
 </div>
 
 ---

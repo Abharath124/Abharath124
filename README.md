@@ -175,18 +175,6 @@
 
 ---
 
-<!-- ── GITHUB ANALYTICS ── -->
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abharath124&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Contribution Graph"/>
-
-</div>
-
----
-
 <!-- ── LEETCODE ── -->
 
 ## 💻 LeetCode
@@ -236,26 +224,5 @@
 
 <img src="./assets/liquid-glass-footer.svg" width="100%" alt="Footer"/>
 
-<br/><br/>
-
-<a href="https://github.com/Abharath124">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/anumandla-bharath-srinivas-694b51199/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="https://leetcode.com/u/Anumandla-Bharath-Srinivas/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-</a>
-&nbsp;
-<a href="mailto:bharath124anumandla@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<br/><br/>
-
-*Building intelligent products. Learning continuously. Shipping consistently.* 🚀
 
 </div>

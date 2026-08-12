@@ -27,45 +27,37 @@
 
 ## 🧊 About Me
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I’m an **AI / ML and Generative AI developer** focused on building intelligent, production-ready applications.
 
-### 🤖 AI / ML
+My work combines **LLMs, RAG, AI Agents, Machine Learning, Full-Stack Development, and Cloud technologies** to turn ideas into practical products.
 
-- Generative AI
-- Large Language Models
-- RAG Systems
-- AI Agents
-- Prompt Engineering
-- Machine Learning
-- Deep Learning
-- Data Science
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🌐 Full-Stack
-
-- React
-- Next.js
-- FastAPI
-- Node.js
-- Express.js
-- PostgreSQL
-- REST APIs
-- Cloud Deployment
-
-</td>
-</tr>
-</table>
-
-> 🎓 **MCA — Generative AI**  
-> 🚀 Building AI-powered applications and intelligent automation systems.  
-> ☁️ Currently expanding into AWS and cloud-based production systems.
+Currently focused on growing as an **AI Full-Stack Engineer** while expanding my expertise in **AWS and scalable AI systems**.
 
 ---
+
+## ✨ What I Build
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/🤖%20Generative%20AI-7C3AED?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/🧠%20AI%20Agents-9333EA?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/📚%20RAG%20Systems-6366F1?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/📊%20Machine%20Learning-2563EB?style=for-the-badge&labelColor=111827">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/🌐%20Full--Stack%20Applications-0EA5E9?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/⚡%20FastAPI%20%26%20Backend%20Systems-06B6D4?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/⚛️%20React%20%26%20Next.js-0891B2?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/☁️%20AWS%20%26%20Cloud-334155?style=for-the-badge&labelColor=111827">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/🔧%20AI%20Automation-F43F5E?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/🧩%20Intelligent%20APIs-E11D48?style=for-the-badge&labelColor=111827">
+<img src="https://img.shields.io/badge/🚀%20Production%20AI%20Systems-BE123C?style=for-the-badge&labelColor=111827">
+
+</div>
 
 ## ✨ What I Build
 

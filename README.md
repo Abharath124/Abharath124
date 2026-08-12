@@ -1,4 +1,3 @@
-better i can paste full code you can undersatnd easily right
 <div align="center">
 
 <img src="./assets/liquid-glass-banner.svg" width="100%" alt="Liquid Glass Banner">

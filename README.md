@@ -59,63 +59,6 @@ Currently focused on growing as an **AI Full-Stack Engineer** while expanding my
 
 </div>
 
-## ✨ What I Build
-
-<table>
-<tr>
-
-<td align="center" width="25%">
-
-### 🧠
-### AI Systems
-
-LLM applications  
-RAG pipelines  
-AI agents  
-AI automation
-
-</td>
-
-<td align="center" width="25%">
-
-### 📊
-### ML Systems
-
-Data Science  
-Machine Learning  
-Deep Learning  
-Model experimentation
-
-</td>
-
-<td align="center" width="25%">
-
-### 🌐
-### Full Stack
-
-React  
-Next.js  
-FastAPI  
-Node.js
-
-</td>
-
-<td align="center" width="25%">
-
-### ☁️
-### Cloud
-
-AWS  
-Deployment  
-Storage  
-Cloud architecture
-
-</td>
-
-</tr>
-</table>
-
----
 
 # 🛠️ Tech Stack
 
